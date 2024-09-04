@@ -2,7 +2,7 @@ services:
   mario:
        build: .
        ports:
-         - '82:80'
+         - '80:80'
        container_name: mario-container
        volumes: 
         - myapps3:/usr/share/nginx/html
